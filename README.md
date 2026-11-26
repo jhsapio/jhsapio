@@ -1,60 +1,39 @@
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:5C0A0F,100:8B0000&height=90&text=hero%20%2F%20dashboard&fontSize=30&fontColor=E8B923&fontAlign=18&fontAlignY=52" />
-
-<p align="right"><sub>🟢 signed in as <b>John Hero Sapio</b> · role: <code>developer</code> · MSU Main Campus</sub></p>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1400&color=E8B923&center=true&vCenter=true&width=560&lines=fetching+profile...;loading+dashboard...;rendering+charts...+done+%E2%9C%93" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1500&color=E8B923&center=true&vCenter=true&width=600&lines=hero%40msu%3A~%24+whoami;John+Hero+Sapio;I+build+what+the+registrar+needs" />
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="140"><h2>5</h2><sub>user roles built</sub></td>
-    <td align="center" width="140"><h2>27</h2><sub>pages shipped</sub></td>
-    <td align="center" width="140"><h2>12</h2><sub>Firestore collections</sub></td>
-    <td align="center" width="140"><h2>240+</h2><sub>commits on SDVS</sub></td>
-  </tr>
-</table>
+```console
+hero@msu:~$ whoami
+John Hero Sapio · 22 · BS Information Technology, major in Database Systems
+MSU Main Campus
 
-<p align="center"><sub>numbers from my capstone repo, not made up</sub></p>
+hero@msu:~$ cat now.txt
+Building SDVS, the MSU Student Data Visualization System:
+the registrar's CSV and Excel files go in, dashboards and reports come out.
 
----
-
-### 👤 Profile
-
-```yaml
-name:      John Hero Sapio
-age:       22
-program:   BS Information Technology, major in Database Systems
-campus:    MSU Main Campus
-building:  MSU Student Data Visualization System (SDVS)
-focus:     turning messy CSV/Excel files into dashboards people can read
+hero@msu:~$ git log --oneline --reverse life
+0000001 init: hello world
+6a1c2f0 learn html and css, make ugly websites
+b7d3e91 discover javascript, make slightly less ugly websites
+c4e8a02 pick up vue 3 and fall for the composition api
+d91f5b3 learn firebase, stop worrying about servers
+e2a7c64 start capstone: SDVS
+f3b9d15 ship role-based access for 5 kinds of users
+a8c0e26 ship csv/excel upload that rejects bad and duplicate rows
+b5d1f37 ship dashboards by college, gender, year level, age, and address
+c6e2a48 ship pdf and excel reports
+d7f3b59 email users when their account is approved or rejected
+e8a4c60 (HEAD -> main) still building, still learning
 ```
 
-### 📊 Code Breakdown · SDVS
-
-```text
-Vue components   █████████████████████░░░░░░░░░  70.4%   22,895 lines
-JavaScript       ████████░░░░░░░░░░░░░░░░░░░░░░  27.2%    8,853 lines
-Firestore rules  ▌░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.6%      530 lines
-SCSS             ▎░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.8%      266 lines
+```console
+hero@msu:~/sdvs$ sdvs --stats
+  roles ............ 5     admin, registrar, faculty, policy maker, ictc
+  pages ............ 28
+  collections ...... 10    firestore
+  my commits ....... 280+  since june 2026
+  status ........... ● live
 ```
-
-<details>
-<summary><b>🧩 What's inside SDVS</b> <sub>(click to expand)</sub></summary>
-<br/>
-
-| Module             | What it does                                                         |
-| ------------------ | -------------------------------------------------------------------- |
-| 🔐 Accounts        | Sign-up requests, admin approval, approval/rejection emails          |
-| 🛡️ Roles           | Admin, Registrar Staff, Faculty, Policy Maker, ICTC, each with its own access |
-| 📤 Upload          | CSV/Excel import with validation, duplicate checks, drafts and approvals |
-| 📊 Dashboards      | By college, gender, year level, age, grades, and home address        |
-| 🔎 Custom Search   | Filter students by any mix of fields, with trends per term           |
-| 📑 Reports         | Downloadable PDF and Excel reports                                   |
-| 📜 Activity Log    | Every upload, edit, approval, and export is recorded                 |
-
-</details>
 
 ### 🧰 Stack
 
@@ -72,15 +51,6 @@ SCSS             ▎░░░░░░░░░░░░░░░░░░░░
   <img src="https://img.shields.io/badge/EmailJS-F37021?style=flat-square" />
 </p>
 
-### 📜 Recent Activity
-
-| Action          | Detail                                                       |
-| --------------- | ------------------------------------------------------------ |
-| `feature.ship`  | Email users when an admin approves or rejects their account  |
-| `feature.ship`  | Let admins give a reason when rejecting an account request   |
-| `feature.ship`  | Note in the activity log whether the account email was sent  |
-| `ui.polish`     | Ask for the institutional email on the sign-in page          |
-
 ### 📈 Activity Trend
 
 <p align="center">
@@ -91,7 +61,10 @@ SCSS             ▎░░░░░░░░░░░░░░░░░░░░
   <img src="https://streak-stats.demolab.com?user=jhsapio&background=0D1117&ring=E8B923&fire=B22222&currStreakNum=FFFFFF&sideNums=E8B923&currStreakLabel=E8B923&sideLabels=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true" />
 </p>
 
----
+```console
+hero@msu:~$ exit
+logout · thanks for visiting
+```
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=jhsapio&color=8B0000&style=flat-square&label=visitors" />
